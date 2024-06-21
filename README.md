@@ -40,5 +40,13 @@ This project is designed to be completed in the following steps:
 
 5. **Commit and Push Your Changes**: Once you've completed the tasks outlined in the notebook, commit your changes to your local repository and push them to your forked repository on GitHub.
 
-
 Feel free to modify and extend the notebook to explore further aspects of the data and experiment with different algorithms. Good luck.
+
+## Project Answer
+
+Ở Project này, vì hạn chế trong việc chạy GridSearchCV, training Model trực tiếp trên máy cá nhân và giới hạn thời gian của GoogleColab cũng như các ứng dụng có thể sử dụng Notebook khác; nhóm em sẽ thực hiện từng bước một cho từng Model (SVM - RandomForest - KNN - MLP) ở trên từng file Notebook khác nhau với tên file là tên Model tương ứng.
+
+Sau đó, các kết quả thu được ở các file này sẽ được nhóm em Merge (bằng thư viện nbmerge của Python lại với nhau với file EDA.ipynb để trả lời các question trong EDA.ipynb. Do đó, file EDA.ipynb nhóm em sẽ là file tổng hợp các kết quả ở từng question. Nếu yêu cầu sự chi tiết về từng Model sẽ có file .ipynb tương ứng của Model đó về việc nhóm em đã triển khai Model đó như thế nào để có được các Hyperparameter cũng như là các kết quả khác theo yêu cầu của question.
+
+Cuối cùng, sau khi thực hiện Mini Project này nhóm em kết luận như sau: Mô hình SVM là mô hình tốt nhất trong số các mô hình được xem xét. Nó cung cấp hiệu suất cao nhất trong các chỉ số quan trọng như precision, precision, recall và F1 - Score. Do đó, nếu phải lựa chọn một mô hình để triển khai, SVM sẽ là lựa chọn ưu tiên.
+
